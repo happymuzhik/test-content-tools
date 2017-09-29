@@ -9,12 +9,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-coffee": "^2.3.4",
-    "gulp-livereload": "^3.8.1",
-    "gulp-plumber": "^1.1.0"
   },
   "devDependencies": {
+    "coffeeify": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-coffee": "^2.3.4",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.1.0",
     "ContentTools": "^1.5.6",
     "express": "^4.15.5"
   }
