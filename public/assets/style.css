@@ -1,0 +1,7 @@
+body {
+    padding: 40px;
+}
+.author {
+    font-style: italic;
+    font-weight: bold;
+}

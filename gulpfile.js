@@ -8,7 +8,7 @@ gulp.task('coffee', function() {
     gulp.src('./src/*.coffee')
         .pipe(plumber())
         .pipe(coffee({bare: true}))
-        .pipe(gulp.dest('./public/js'))
+        .pipe(gulp.dest('./public/assets'))
         .pipe(livereload({
             reloadPage: 'index.html'
         }));
